@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Poppins:wght@400;700&family=Varela+Round&display=swap');
+* {
+	padding: 0;
+	margin:0;
+	font-family: 'Gaegu', cursive;
+
+}
+a, a:visited, a:link {
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #fffffe;
+
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background-color: #e3f6f5;
+}
+h2 {
+	text-align: center;
+	color: #33272a;
+	margin:20px 0;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fffffe;
+	border-collapse : collapse;
+	border: 1px solid #272343;
+}
+
+table:nth-of-type(1){
+	margin-bottom: 20px;
+}
+td {
+	padding: 10px;
+}
+th {
+	padding: 5px;
+	background-color: #ffd803;
+}
+
+button, input[type="submit"] {
+	background-color: #ffd803;
+	border : none;
+	border-radius: 20px;
+	font-weight: bold;
+	padding: 5px 10px;
+	
+}
